@@ -1,0 +1,41 @@
+#greycol {
+    color: gray;
+}
+
+.yellow {
+    color: yellow;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+
+
+h3:first-child {
+    color: pink;
+}
+
+
+.text-box>div>p {
+    color: red;
+}
+
+div~p {
+    color: green;
+}

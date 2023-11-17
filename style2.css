@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-vector/pink-watercolor-background_208007-15.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    display: flex;
+}
+
+table caption {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 2px solid plum;
+}
+
+th:hover {
+    color: palevioletred;
+    font-size: larger;
+}
+
+a:link {
+    color: rgb(207, 52, 104);
+}
+
+a:visited {
+    color: rgb(208, 143, 154);
+}
+
+.classnumber:checked + a {
+    color: rgb(225, 60, 88);
+}
+a:active {
+color: purple;
+font-size: smaller;
+}
