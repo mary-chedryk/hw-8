@@ -41,10 +41,31 @@ a:visited {
     color: rgb(208, 143, 154);
 }
 
-.classnumber:checked + a {
+.classnumber:checked+a {
     color: rgb(225, 60, 88);
 }
+
 a:active {
-color: purple;
-font-size: smaller;
+    color: purple;
+    font-size: smaller;
+}
+
+tr :first-child {
+    color: rgb(158, 119, 194);
+}
+
+tr :last-child {
+    color: rgb(91, 57, 123);
+}
+
+tr :nth-child(odd) {
+    color: brown;
+}
+
+tr :empty {
+    font-size: larger;
+}
+
+tr :nth-child(3) {
+    color: rgb(255, 0, 208);
 }
